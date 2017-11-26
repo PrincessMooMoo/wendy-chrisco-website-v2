@@ -1,60 +1,70 @@
-.ribbon {
- font-size: 16px !important;
- /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption');
+/*Universal*/
+.padding-null {
+  padding: 0;
 
- width: 75%;
-
- position: absolute;
- background: #ba89b6;
- color: #fff;
- text-align: center;
- padding: 1em 2em; /* Adjust to suit */
- margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-}
-.ribbon:before, .ribbon:after {
- content: "";
- position: absolute;
- display: block;
- bottom: -1em;
- border: 1.5em solid #986794;
- z-index: -1;
-}
-.ribbon:before {
- left: -2em;
- border-right-width: 1.5em;
- border-left-color: transparent;
-}
-.ribbon:after {
- right: -2em;
- border-left-width: 1.5em;
- border-right-color: transparent;
-}
-.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
- content: "";
- position: absolute;
- display: block;
- border-style: solid;
- border-color: #804f7c transparent transparent transparent;
- bottom: -1em;
-}
-.ribbon .ribbon-content:before {
- left: 0;
- border-width: 1em 0 0 1em;
-}
-.ribbon .ribbon-content:after {
- right: 0;
- border-width: 1em 1em 0 0;
 }
 
-.row{
-    position: relative;
+/*Nav*/
+.nav{
+  height: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-.box1{
+.button-container{
+  height: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-logo{
   height: 200px;
-  background-color: blue;
+  display: flex;
+  justify-content: center;
 }
 
-.logo{
-  height: 100%;
+.my-button{
+  display: inline;
+  height: 33px;
+  width: 86px;
+  border: 2px solid #e0b041;
+  font-family: "PT Serif Caption", serif;
+  color: #ef8fba;
+  background-color: white;
+}
+
+.hline-box{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hline-box2{
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 5px;
+}
+
+.hline1{
+  width:75%; height:2px; background: #e0b041;
+}
+
+.hline2{
+  width:65%; height:2px; background: #e0b041;
+}
+
+.left-p{
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
 }
