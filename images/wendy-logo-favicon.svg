@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   version="1.1"
+   viewBox="0 0 8.4666659 8.4666659"
+   id="svg123"
+   sodipodi:docname="wendy-logo-favicon.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1397"
+     inkscape:window-height="841"
+     id="namedview125"
+     showgrid="false"
+     inkscape:zoom="16"
+     inkscape:cx="14.951256"
+     inkscape:cy="15.170481"
+     inkscape:window-x="2138"
+     inkscape:window-y="57"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg123"
+     units="px" />
+  <defs
+     id="defs5">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 4.233333 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="8.4666659 : 4.233333 : 1"
+       inkscape:persp3d-origin="4.233333 : 2.822222 : 1"
+       id="perspective146" />
+    <clipPath
+       id="clipPath20">
+      <path
+         d="M 0,800 H 1000 V 0 H 0 Z"
+         id="path2"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(0.18200687,0,0,0.18200686,-0.98052336,-44.277271)"
+     id="g121">
+    <g
+       transform="translate(-33.205,14.817)"
+       id="g119">
+      <g
+         transform="matrix(0.35278,0,0,-0.35278,-114.55,504.17)"
+         clip-path="url(#clipPath20)"
+         id="g105">
+        <g
+           transform="translate(562.8,715.47)"
+           id="g11">
+          <path
+             d="m 0,0 c 0,-34.516 -27.981,-62.497 -62.496,-62.497 -34.516,0 -62.496,27.981 -62.496,62.497 0,34.516 27.98,62.496 62.496,62.496 C -27.981,62.496 0,34.516 0,0"
+             id="path9"
+             inkscape:connector-curvature="0"
+             style="fill:#eeb210;fill-opacity:1" />
+        </g>
+        <g
+           transform="translate(500.31,656.84)"
+           id="g15">
+          <path
+             d="m 0,0 c -32.378,0 -58.625,26.247 -58.625,58.624 0,32.378 26.247,58.625 58.625,58.625 32.377,0 58.624,-26.247 58.624,-58.625 C 58.624,26.247 32.377,0 0,0 m 0,123.48 c -35.817,0 -64.853,-29.036 -64.853,-64.853 0,-35.816 29.036,-64.852 64.853,-64.852 35.815,0 64.852,29.036 64.852,64.852 0,35.817 -29.037,64.853 -64.852,64.853"
+             id="path13"
+             inkscape:connector-curvature="0"
+             style="fill:#ff5555;fill-opacity:1" />
+        </g>
+        <g
+           transform="translate(550.14,751.28)"
+           id="g19">
+          <path
+             d="m 0,0 c -0.754,0 -3.488,-0.362 -8.77,-0.362 -5.845,0 -9.146,0.362 -10.089,0.362 -0.66,0 -0.754,-0.363 -0.754,-0.846 v -2.78 c 0,-0.726 0.094,-1.088 0.661,-1.088 h 2.546 c 2.546,0 3.3,-1.813 3.3,-3.747 0,-6.891 -16.716,-68.515 -16.716,-68.515 L -50.29,25.974 -70.062,-76.976 c 0,0 -16.716,61.624 -16.716,68.515 0,1.934 0.755,3.747 3.301,3.747 h 2.546 c 0.566,0 0.66,0.362 0.66,1.088 v 2.78 c 0,0.483 -0.094,0.846 -0.754,0.846 -0.943,0 -4.244,-0.362 -10.09,-0.362 -5.281,0 -8.015,0.362 -8.77,0.362 -0.566,0 -0.66,-0.242 -0.66,-0.846 v -3.022 c 0,-0.484 0,-0.846 0.66,-0.846 h 2.263 c 1.603,0 2.923,-1.33 3.772,-3.264 0.754,-1.692 20.462,-76.96 22.349,-82.762 0.471,-1.33 0.942,-3.143 1.98,-3.143 1.131,0 1.603,0.966 2.074,2.659 l 17.272,94.738 17.737,-94.738 c 0.471,-1.693 0.944,-2.659 2.075,-2.659 1.038,0 1.509,1.813 1.981,3.143 1.885,5.802 21.593,81.07 22.348,82.762 0.848,1.934 2.168,3.264 3.771,3.264 H 0 c 0.661,0 0.661,0.362 0.661,0.846 v 3.022 C 0.661,-0.242 0.566,0 0,0"
+             id="path17"
+             inkscape:connector-curvature="0"
+             style="fill:#ff5555" />
+        </g>
+        <g
+           transform="translate(563.9,715.47)"
+           id="g23" />
+        <g
+           transform="translate(506.81,652.21)"
+           id="g27" />
+        <g
+           transform="translate(507.18,778.69)"
+           id="g31" />
+        <g
+           transform="translate(559.65,722.35)"
+           id="g35" />
+        <g
+           transform="translate(559.65,722.35)"
+           id="g39" />
+        <g
+           transform="translate(465.2,746.75)"
+           id="g43" />
+        <g
+           transform="translate(463.05,738.93)"
+           id="g47" />
+        <g
+           transform="translate(455.58,746.52)"
+           id="g51" />
+        <g
+           transform="translate(453.97,750.37)"
+           id="g55" />
+        <g
+           transform="translate(481.68,660.05)"
+           id="g59" />
+        <g
+           transform="translate(480.93,671.77)"
+           id="g63" />
+        <g
+           transform="translate(535.28,746.75)"
+           id="g67" />
+        <g
+           transform="translate(537.51,738.93)"
+           id="g71" />
+        <g
+           transform="translate(544.98,746.52)"
+           id="g75" />
+        <g
+           transform="translate(546.59,750.37)"
+           id="g79" />
+        <g
+           transform="translate(518.42,660.05)"
+           id="g83" />
+        <g
+           transform="translate(519.4,672.54)"
+           id="g87" />
+        <g
+           transform="translate(499.54,772.96)"
+           id="g91" />
+        <g
+           transform="translate(499.23,756.56)"
+           id="g95" />
+        <g
+           transform="translate(453.8,747.55)"
+           id="g99" />
+        <g
+           transform="translate(546.73,747.55)"
+           id="g103" />
+      </g>
+      <g
+         id="g117"
+         style="fill:#f48f9d;stroke-width:0.125" />
+    </g>
+  </g>
+</svg>

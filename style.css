@@ -23,6 +23,10 @@
   justify-content: space-around;
 }
 
+.ribbon{
+  z-index: -1;
+}
+
 .header-logo{
   height: 200px;
   display: flex;
@@ -62,9 +66,9 @@
   width:65%; height:2px; background: #e0b041;
 }
 
-.left-p{
+.about{
   height: 400px;
   width: 300px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
