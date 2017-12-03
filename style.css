@@ -7,13 +7,14 @@
 
 /*Nav*/
 .nav{
-  height: 250px;
+  /*height: 250px;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 0;*/
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  padding-top: 2em;
 }
 
 .button-container{
@@ -21,10 +22,20 @@
   width: 500px;
   display: flex;
   justify-content: space-around;
+  z-index: 1;
 }
 
+.center-img {
+  display:flex;
+  justify-content: center;
+}
 .ribbon{
   z-index: -1;
+}
+
+.ribbon-container {
+  position: absolute;
+  top: 65px;
 }
 
 .header-logo{
@@ -43,32 +54,15 @@
   background-color: white;
 }
 
-.hline-box{
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.hline-box2{
-  height: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 5px;
-}
-
-.hline1{
-  width:75%; height:2px; background: #e0b041;
-}
-
-.hline2{
-  width:65%; height:2px; background: #e0b041;
-}
-
 .about{
-  height: 400px;
+  /*height: 400px;
   width: 300px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;*/
+}
+
+@media only screen and (max-width:520px) {
+  .ribbon-container {
+    display: none;
+  }
 }
