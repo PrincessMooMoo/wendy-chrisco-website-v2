@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
 /*Universal*/
 .padding-null {
   padding: 0;
@@ -7,10 +7,6 @@
 
 /*Nav*/
 .nav{
-  /*height: 250px;
-  position: fixed;
-  left: 0;
-  top: 0;*/
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -46,23 +42,59 @@
 
 .my-button{
   display: inline;
-  height: 33px;
-  width: 86px;
+  height: 35px;
+  width: 97px;
   border: 2px solid #e0b041;
-  font-family: "PT Serif Caption", serif;
+  font-family: "Vollkorn SC", serif;
   color: #ef8fba;
   background-color: white;
+  padding-top: .25em;
 }
 
+.my-button:hover{
+  background-color:#ef8fba;
+  border: 2px solid #e0b041;
+  color: white;
+
+}
+
+.name{
+  font-family: "Vollkorn SC", serif;
+  text-align: center;
+  color: #990000;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+.job{
+  font-family: "vollkorn SC", serif;
+  text-align: center;
+  color: #990000;
+  font-size: 1em;
+  margin-top: 0;
+}
 .about{
-  /*height: 400px;
-  width: 300px;
-  display: flex;
-  justify-content: space-around;*/
+  text-align: justify;
+  font-family: sans-serif;
+  text-indent: 2em;
+  color: #3E3330;
+}
+
+.bar{
+  border-bottom: 2px solid #e0b041;
+  border-top: 2px solid #e0b041;
+  padding-top: .75em;
+}
+.footer-ribbon{
+
 }
 
 @media only screen and (max-width:520px) {
   .ribbon-container {
     display: none;
   }
+@media only screen and (max-width:520px) {
+  .footer-ribbon {
+    display: none;
+    }
 }
