@@ -57,6 +57,7 @@
   color: white;
 }
 
+/*About*/
 .name{
   font-family: "Vollkorn SC", serif;
   text-align: center;
@@ -89,7 +90,27 @@
   border-top: 2px solid #e0b041;
   padding-top: .75em;
 }
+/*About End*/
 
+/*Portfolio*/
+
+.design{
+
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-image {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+  /*Portfolio End*/
+
+/*Footer*/
 .social-container{
   display: flex;
   justify-content: center;
@@ -106,16 +127,7 @@
   color: #3E3330;
   margin-top: 10px;
 }
-
-/*Portfolio*/
-
-.portfolio-container {
-  display: flex;
-  flex-flow: column wrap;
-}
-
-.portfolio-image {
-}
+/*Footer End*/
 
 
 @media only screen and (max-width:520px) {
