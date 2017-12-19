@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Wendy Chrisco</title>
+    <title>Wendy Chrisco - Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
@@ -13,22 +13,20 @@
   <body>
 <!-- nav -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 header-logo padding-null">
+      <div class="row blue">
+        <div class="col-md-4 col-md-offset-4 header-logo">
           <img src="images/wendy-logo.svg" class="logo img-responsive" alt="Wendy Chrisco's logo with emblem and wings">
         </div>
-        <div class="col-xs-12 nav padding-null">
+        <div class="col-md-8 col-md-offset-2 nav padding-null">
           <div class="button-container">
-          <a href="home.html"><button class="my-button">Home</button></a>
+          <a href="index.html"><button class="my-button">Home</button></a>
           <a href="portfolio.html"><button class="my-button">Portfolio</button></a>
-            <a href=""><button class="my-button">Contact</button></a>
+          <a href="#"><button class="my-button">Contact</button></a>
           </div>
         </div>
-        <div class="col-xs-12 col-md-12 header-logo padding-null ribbon-container">
+        <div class="col-xs-12 col-md-12 header-logo ribbon-container">
           <img src="images/ribbon.svg" class="ribbon img-responsive" alt="Wendy Chrisco's logo with emblem and wings">
         </div>
-
-
       </div>
     </div>
       <!-- End of Nav -->
@@ -36,24 +34,47 @@
       <!-- Contact Container -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 col-md-offset-2 padding-null about-container">
+          <div class="col-md-12">
+          <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">
 
+                <p class="name">
+                  <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                </p>
+
+                <p class="email">
+                  <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                </p>
+
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                </p>
+
+
+                <div class="submit">
+                  <input type="submit" value="SEND" id="button-blue"/>
+                  <div class="ease"></div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
+        </div>
 
       <!-- End of Contact Container -->
       <!-- Footer -->
       <div class="container-fluid">
-        <div class="row">
+        <div class="row blue">
           <div class="col-md-8 col-md-offset-2">
             <img src="images/footer-ribbon.svg" class="img-responsive footer-ribbon">
           </div>
         </div>
-        <div class="row">
+        <div class="row blue">
           <div class="col-md-6 col-md-offset-3 social-container">
-            <a href="https://github.com/PrincessMooMoo" target="_blank"><img src="images/git-logo.svg" alt="Git Hub logo" class="img-responsive social-icon"></a>
+            <a href="https://github.com/PrincessMooMoo" target="_blank"><img src="images/github-logo.svg" alt="Git Hub logo" class="img-responsive social-icon"></a>
             <a href="https://www.linkedin.com/in/wendy-chrisco-2560ab52/" target="_blank"><img src="images/linkedin-logo.svg" alt="Linkedin Logo" class="img-responsive social-icon"></a>
-            <a href="https://wendyskaleidoscope.deviantart.com/" target="_blank"><img src="images/da-logo.svg" alt="DeviantArt Logo" class="img-responsive social-icon"></a>
+            <a href="https://wendyskaleidoscope.deviantart.com/" target="_blank"><img src="images/deviantart-logo.svg" alt="DeviantArt Logo" class="img-responsive social-icon"></a>
           </div>
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
