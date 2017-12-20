@@ -130,6 +130,7 @@
 .portfolio-image{
 }
 
+
   /*Portfolio End*/
 
   /*Contact Starts*/
@@ -148,16 +149,16 @@
 }
 
 #form-div {
-	background-color:rgba(72,72,72,0.4);
+	background-color:#870514;
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
 	padding-bottom:50px;
-	width: 450px;
-	float: left;
+	max-width: 450px;
 	left: 50%;
-	position: absolute;
-  margin-top:30px;
+	position: relative;
+  margin-top:2em;
+  margin-bottom: 2em;
 	margin-left: -260px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
